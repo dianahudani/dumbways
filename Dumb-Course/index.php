@@ -15,7 +15,7 @@
       <h1 class="text-center p-2">Dumb Course</h1>
     
 
-      <div>
+      <div class=mb-2>
         <button type="button" class="btn btn-info float-right mr-2" name="addcourse" data-toggle="modal" data-target="#addCourse">Add Course</button>
 
         <div class="modal fade" id="addCourse" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -154,7 +154,7 @@
             while($row = mysqli_fetch_array($results)){ ?>
             <div class="col-sm-4">
               <div class="card-columns-fluid p-1">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem;height: 30rem;">
                   <img class="card-img-top" style="height: 15vw;" src="images/<?php echo $row['thumbnail'] ?>" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title"><?php echo $row['name'] ?></h5>
