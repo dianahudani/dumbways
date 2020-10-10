@@ -38,8 +38,7 @@ CREATE TABLE `Author` (
 
 INSERT INTO `Author` (`id`, `name`) VALUES
 (1, 'Diana Hudani'),
-(2, 'Carol Wilar'),
-(3, 'Bill Gates');
+(2, 'Bill Gates');
 
 -- --------------------------------------------------------
 
@@ -58,10 +57,6 @@ CREATE TABLE `Content` (
 --
 -- Dumping data for table `Content`
 --
-
-INSERT INTO `Content` (`id`, `name`, `video_link`, `type`, `id_course`) VALUES
-(4, 'Introduction', 'https://www.youtube.com/watch?v=eIrMbAQSU34', 'Beginner', 5),
-(5, 'Introduction', 'https://www.youtube.com/watch?v=vLnPwxZdW4Y', 'Beginner', 6);
 
 -- --------------------------------------------------------
 
@@ -83,8 +78,7 @@ CREATE TABLE `Course` (
 --
 
 INSERT INTO `Course` (`id`, `name`, `thumbnail`, `id_author`, `duration`, `description`) VALUES
-(5, 'JAVA', 'KTP.jpg', 1, 'fghjk', 'Halo ayo kita belajar JAVA'),
-(6, 'C++', 'ALIVE.jpeg', 2, '3 hours', 'Ayo belajar C++');
+
 
 --
 -- Indexes for dumped tables
