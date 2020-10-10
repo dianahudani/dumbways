@@ -15,5 +15,5 @@ def hitungbarang(string):
 
 
 #python harus menggunakan petik sebagai parameter string
-hitungbarang("Hmm")
+hitungbarang("programmer")
 

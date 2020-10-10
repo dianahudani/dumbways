@@ -25,4 +25,4 @@ def hitungbarang(quality, quantity):
 
 
 #python harus menggunakan petik sebagai parameter string
-hitungbarang('B', 10)
+hitungbarang('A', 11)

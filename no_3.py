@@ -32,6 +32,6 @@ def siku(n):
         
 
 if __name__ == '__main__':
-
+    #input the number of the triangle and press enter for the result
     n = int(input().strip())
     siku(n)
